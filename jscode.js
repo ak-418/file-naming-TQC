@@ -359,7 +359,7 @@ function myFunction(x) {
     eptitle = dashspl[21];
     untoep = dashspl[21];
 
-    if (RegExp("[^0-9]").test(mo)) {
+    if (RegExp("[^0-9 ]").test(mo)) {
       //operations schedule
       mo = dashspl[7];
       eptitle = dashspl[15];
